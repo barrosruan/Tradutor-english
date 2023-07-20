@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="./style.css">
     <title>Tradutor Simples</title>
 </head>
-<body>
+
+  <body>
     <h1>Tradutor.English</h1>
-    <label for="inputText">Texto em Português:</label><br>
+
+    <label for="inputText">Português:</label><br>
+
     <textarea id="inputText" placeholder="Digite o texto aqui"></textarea><br>
-    <label for="outputText">Texto em Inglês:</label><br>
+
+    <label for="outputText">Inglês:</label><br>
+
     <textarea id="outputText" placeholder="Tradução aparecerá aqui" readonly></textarea>
-    <button onclick="translateText()">Traduzir</button><br>
+
+    <button class="my-button" onclick="translateText()">Traduzir</button>
+
     <script src = "./func.js" ></script>
-</body>
+
+  </body>
 </html>

@@ -1,3 +1,5 @@
+
+  
 function translateText() {
     const inputText = document.getElementById('inputText').value;
 
@@ -23,3 +25,5 @@ function translateText() {
             console.error('Erro ao traduzir:', error);
         });
 }
+
+  
