@@ -5,27 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="./style.css">
-    <title>Tradutor Simples</title>
+
+  <title>Tradutor Simples</title> 
+
 </head>
 
   <body>
-    <h1>Tradutor.English</h1>
+    <h1>Tradutor.Js</h1>  
 
-    <label for="inputText">Português:</label><br>
+    <label for="inputText">Português:</label>
+    <ion-icon name="chatbubble-ellipses-outline" class="icon"></ion-icon>
 
-  
+    <textarea id="inputText" placeholder="Digite o texto aqui" class="text"></textarea><br>
 
-    <textarea id="inputText" placeholder="Digite o texto aqui"></textarea><br>
+    <label for="outputText">Inglês:</label>
+    <ion-icon name="chatbubble-ellipses-outline" class="icon"></ion-icon>
 
-    <label for="outputText">Inglês:</label><br>
-
-    <textarea id="outputText" placeholder="Tradução aparecerá aqui" readonly></textarea>
+    <textarea id="outputText" placeholder="Tradução aparecerá aqui" class="text" readonly></textarea>
 
     <div class="container">
       <button class="my-button" onclick="translateText()">Traduzir</button>
     </div>
 
     <script src = "./func.js" ></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" ></script> 
+<script  nomodule  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
 
   </body>
 </html>
